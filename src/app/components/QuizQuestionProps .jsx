@@ -18,7 +18,7 @@ export default function QuizQuestion({
   const progress = (questionNumber / totalQuestions) * 100;
 
   return (
-    <div className="min-h-screen bg-[#1D2332] p-6">
+    <div className="min-h-screen bg-[#1D2332] p-6   xl:flex xl:items-center xl:justify-start flex items-center justify-center">
       <div className="max-w-[1200px] mx-auto h-full">
         {/* Grid container for large screens */}
         <div className="lg:grid lg:grid-cols-2 lg:gap-16 lg:items-start lg:pt-20">
